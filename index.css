@@ -13,22 +13,17 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: rgb(228, 224, 224);
-    
+
 }
 
 h1 {
     color: rgb(0, 0, 0);
     text-align: center;
-    margin-bottom:10px;
+    margin-bottom: 10px;
 
 
 }
 
-.calc {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .container {
     width: 500px;
@@ -38,7 +33,7 @@ h1 {
     margin: 50px;
     margin-left: 35%;
     border-radius: 30px;
-    
+
 }
 
 input {
@@ -78,7 +73,7 @@ input[type=number] {
     align-items: center;
     flex-wrap: wrap;
     margin: 10px;
-    
+
 
 }
 
@@ -89,7 +84,7 @@ input[type=number] {
     float: right;
     width: 85%;
     border-radius: 10px;
-   
+
 }
 
 button {
@@ -106,4 +101,57 @@ button {
 .equal {
     width: 135px;
     margin: 5px;
+    background-color: rgb(58, 58, 184);
+    color: aliceblue;
+}
+
+.clr,
+.del,
+.divid,
+.multi,
+.minus,
+.plus,
+.perce,
+.muti {
+    background-color: rgb(58, 58, 184);
+    color: aliceblue;
+
+}
+
+@media only screen and (max-width: 546px) {
+    body {
+        background-color: lightblue;
+      width: 100vw;
+    
+
+    }
+
+    .container {
+        background-color: antiquewhite;
+        padding: 50px;
+        margin: 30px;
+        margin-right: 40%;
+        margin-bottom: 40%;
+       
+    }
+
+    .clr,
+    .del,
+    .divid,
+    .multi,
+    .minus,
+    .plus,
+    .perce,
+    .muti,
+    .equal {
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+
+    }
+
+    button {
+        background-color: black;
+        color: aliceblue;
+    }
+
 }

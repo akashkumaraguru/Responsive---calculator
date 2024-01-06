@@ -1,6 +1,9 @@
-var outputscreen = document.getElementById("output-screen");
+let button = document.querySelectorAll('equal')
+let input = document.getElementById('output-screen')
 
-function display(num){
-    outputscreen.value +=num;
-
-}
+button.forEach(equal =>{
+    buttons.addEventListener('click',(e)=>{
+        alert(e.target.textContent)
+    })
+    
+})
